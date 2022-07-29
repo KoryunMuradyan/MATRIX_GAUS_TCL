@@ -1,0 +1,20 @@
+Write equation in this format in << input.txt >>
+
+3 // This is a number of order matrix
+
+1.0 -2.0 3.0 9.0     /*	 Write number with 0 of number 
+-1.0 3.0 0.0 -4.0     *  EXAMPLE  if number is equal to << 1 >> write << 1.0 >>
+2.0 -5.0 5.0 17.0     *
+                     /*
+
+
+Run script this format
+
+tclsh << script_name.tcl >>  << input_file_name.txt >>
+
+After this command automaticly generated  <<output.txt>> file with result
+
+in << golden.txt>> file write  expected result
+
+if result after  solver equal to golden result  in << output.txt>>  we can see << Test Passed >> 
+otherway << Test Failed >>
